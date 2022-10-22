@@ -10,7 +10,6 @@ const assetsToCache = [
   'assets/js/material.min.js',
   'assets/style.css',
   'app.js',
-  'favicon.ico',
   'index.html',
   '/'
 ];

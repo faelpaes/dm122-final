@@ -23,8 +23,7 @@
     />
     <link rel="stylesheet" href="assets/style.css" />
     <script defer src="assets/js/material.min.js"></script>
-    <script src="app.js" type="module"></script>
-    <script src="db.js" type="module"></script>
+    <script src="app.js" type="module" defer></script>
   </head>
   <body>
     <div id="app">
@@ -32,22 +31,20 @@
         <header class="mdl-layout__header">
           <div class="mdl-layout__header-row">
             <!-- Title -->
-            <span class="mdl-layout-title">PWA - Vanilla JS</span>
+            <span class="mdl-layout-title">PokedeX</span>
           </div>
         </header>
         <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title">PWA - Vanilla JS</span>
+          <span class="mdl-layout-title">PokedeX</span>
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="/">About</a>
           </nav>
         </div>
-        <main
-          class="mdl-layout__content mat-typography"
-          style="text-align: center"
-        >
-          <p id="output">
+        <main class="mdl-layout__content mat-typography" style="text-align: center">
+          <!-- <p id="output">
             <img src="assets/images/pwa-logo.png" alt="" />
-          </p>
+          </p> -->
+          <section id="container">Loading...</section>
         </main>
       </div>
     </div>
